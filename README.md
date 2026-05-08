@@ -32,6 +32,7 @@ QA-LAB-01/
 │
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Instrucciones de ejecución
@@ -55,7 +56,8 @@ python -m pytest
 
 ### 5. Resultado esperado
 
-4 passed
+4 passed```
+
 
 ## Autor
 
