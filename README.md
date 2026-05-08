@@ -1,35 +1,65 @@
 # QA-LAB-01
 
-## Parte 7: Actualización del README
+## Nombre del proyecto
 
-### Objetivo del ejercicio
+QA-LAB-01: Configuración del entorno de pruebas y repositorio
 
-El objetivo del ejercicio es implementar funciones básicas de una calculadora y verificar su correcto funcionamiento mediante pruebas automatizadas utilizando pytest. Con ello se busca aplicar conceptos básicos de aseguramiento de calidad de software, control de versiones y ejecución de pruebas en un entorno de desarrollo.
+## Objetivo
 
-### Herramientas utilizadas
+Configurar un entorno básico de desarrollo y pruebas para el curso de Pruebas y Aseguramiento de Calidad de Software, utilizando herramientas de control de versiones y pruebas automatizadas. El proyecto permite organizar el código fuente, crear casos de prueba y verificar su funcionamiento mediante pytest.
+
+## Herramientas utilizadas
 
 - Git
 - GitHub
+- Visual Studio Code
 - Python
 - pytest
-- Visual Studio Code
 - PowerShell o terminal del sistema
 
-### Ejecución de pytest
+## Estructura del proyecto
 
-Para ejecutar las pruebas automatizadas se utilizó el siguiente comando:
+```text
+QA-LAB-01/
+│
+├── src/
+│   └── calculadora.py
+│
+├── tests/
+│   └── test_calculadora.py
+│
+├── docs/
+│
+├── README.md
+└── requirements.txt
+
+
+## Instrucciones de ejecución
+
+### 1. Clonar el repositorio
 
 ```bash
+git clone https://github.com/Juanjo166/QA-LAB-01.git
+
+### 2. Ingresar a la carpeta del proyecto
+
+cd QA-LAB-01
+
+### 3. Instalar las dependencias
+
+pip install -r requirements.txt
+
+### 4. Ejecutar las pruebas automatizadas
+
 python -m pytest
+
+### 5. Resultado esperado
 
 4 passed
 
-Esto cumple con lo que pide la guía: objetivo, herramientas utilizadas, descripción de la ejecución de `pytest` e importancia de las pruebas automatizadas. :contentReference[oaicite:0]{index=0}
+## Autor
 
-Después guarda el archivo y sube el cambio a GitHub:
-
-```powershell
-git status
-git add README.md
-git commit -m "Actualizacion del README del laboratorio"
-git push origin main
+- Juan Josue Huaman Soto
+- Universidad Nacional de San Cristóbal de Huamanga
+- Curso: Pruebas y Aseguramiento de Calidad de Software
+- Código del curso: IS-489
